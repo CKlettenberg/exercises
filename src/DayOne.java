@@ -23,7 +23,7 @@ public class DayOne {
         }
 
 
-        if (b > a && a>0) {
+        if (b > a && a > 0) {
             System.out.println("b is bigger than a, and a is positive");
         }
         else if (b < a && b>0) {
