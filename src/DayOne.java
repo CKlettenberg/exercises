@@ -2,14 +2,13 @@ import javax.swing.*;
 
 public class DayOne {
     public static void main(String[] args) {
+        int a=1;
+        int b=2;
 
-
-        int a = 2;
-        int b = -1;
 
         // USE && (and)
         // USE || (or)
-/*
+
         if (b > a)
         {
             System.out.println("b is bigger than a");
@@ -37,7 +36,6 @@ public class DayOne {
             System.out.println("No specific conditions were met");
         }
 
-*/
 
 
     }
