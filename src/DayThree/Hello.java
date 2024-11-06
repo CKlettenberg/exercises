@@ -3,14 +3,15 @@ package DayThree;
 
 public class Hello {
     public static void main(String[] args) {
-        getPerson();
+        int age = 20;
+        getPerson(age);
 
     }
 
-    public static void getPerson() {
+    public static void getPerson(int age) {
         System.out.println("Checking user age");
         getName();
-        checkUserAge();
+        checkUserAge(age);
     }
 
     public static void getName() {
@@ -18,8 +19,7 @@ public class Hello {
 
     }
 
-    public static void checkUserAge() {
-        int age = 20;
+    public static void checkUserAge(int age) {
         if (age < 18) {
             System.out.println("You are younger than 18 years!");
 
@@ -30,7 +30,7 @@ public class Hello {
     }
 
     public static void getAge(int age) {
-        System.out.println("Age is : " + age );
+        System.out.println("Age is : " + age);
 
     }
 
