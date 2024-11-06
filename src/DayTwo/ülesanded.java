@@ -1,5 +1,8 @@
 package DayTwo;
 
+import javax.swing.*;
+import java.sql.SQLOutput;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class ülesanded {
@@ -50,7 +53,53 @@ public class ülesanded {
 
 
 
+
 */
+    String hello = ("hello world");
+    System.out.println(hello.toUpperCase());
+
+    String hello1 = ("HELLO WORLD");
+    System.out.println(hello1.toLowerCase());
+
+    String hello2 = "Hello World";
+    String substring = "World";
+    boolean contains = hello2.contains(substring);
+        System.out.println(contains);
+
+    String hello4 = "Hello";
+    char firstChar = hello4.charAt(0);
+    System.out.println(firstChar);
+
+
+    String hello5 = "Hello World";
+    String modified = hello5.replace('o','a');
+        System.out.println(modified);
+
+    System.out.println("kas hello world algab - Hello ja lõppeb - World");
+    String hello6 = "Hello World";
+    System.out.println(hello6.startsWith("Hello") && hello6.endsWith("World"));
+
+    String hello7 = "Hello, World!";
+    System.out.println(hello7.substring(7, 12));
+
+    String hello8 = "abracadabra";
+    char searchChar = 'r';
+    int firstPosition = hello8.indexOf(searchChar);
+    int lastPosition = hello8.lastIndexOf(searchChar);
+    System.out.println("esimene positsioon: " + firstPosition);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     }
