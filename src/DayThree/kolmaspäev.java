@@ -6,15 +6,12 @@ public class kolmaspäev {
     public static void main(String[] args) {
 
 /*
-
-
-
-    getUser();
+        getUser();
         Scanner scanner = new Scanner(System.in);
 
 
-
     }
+
     private static void getUser() {
         boolean isTrue = true;
         System.out.println("Hello, please enter your name : ");
@@ -23,6 +20,7 @@ public class kolmaspäev {
         }
 
     }
+
     private static String getName() {
         boolean isTrue = true;
         int number = 5;
@@ -34,10 +32,13 @@ public class kolmaspäev {
 
 
     }
+
     private static void getPassword(int number) {
         System.out.println(number);
+
+   */
     }
 
-*/
-    }
+
 }
+
