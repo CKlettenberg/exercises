@@ -2,14 +2,14 @@ package DayFour;
 
 public class brakecontinue {
     public static void main(String[] args) {
-       /* continue1();
-        brake();
-        brake2();*/
-        brake3();
-
+        /*continue1();
+        brake();*/
+        evenNR();
+        countNR();
+        multiples3();
 
         int rollDice = rollDice();
-        System.out.println("Your rolled a number:" + rollDice);
+        /*System.out.println("Your rolled a number:" + rollDice);*/
     }
 
     public static void continue1() {
@@ -39,31 +39,42 @@ public class brakecontinue {
 
     }
 
+    private static void countNR() {
+        for (int count = 1; count <= 20; count++) {
+            // Kontrolli paarituid numbreid
+            if (count % 2 != 0) {
+                // Kui number on 5ga jagatav, siis seda ei kuva
+                if (count % 5 == 0) {
+                    continue;
+                }
+                System.out.println("Paaritud numbrid(va 5/ numbrid): " + count);
+            }
+        }
 
-    public static void brake2() {
+    }
 
+    private static void evenNR() {
         int[] numbers = {1, 3, 7, 4, 9, 10};
-        System.out.println("Even Numbers:");
         for (int a = 0; a < numbers.length; a++) {
             if (numbers[a] % 2 == 0) {
-                System.out.println(numbers[a]);
+                System.out.println("First even number: " + numbers[a]);
+                break;
 
 
             }
         }
     }
 
-     public static void brake3() {
-        for (int count = 1; count <= 20; count++) {
-            if (count % 1 == 0) {
-                System.out.println(count);
+
+    private static void multiples3() {
+        for (int i = 3; i <= 30; i += 3) {
+
+            if (i % 6 == 0) {
+                continue;
             }
 
-
-     }
-
-
+            System.out.println("kolme liitmise tulemused(va 6/ numbrid): " + i);
+        }
 
     }
 }
-
