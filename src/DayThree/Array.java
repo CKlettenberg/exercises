@@ -2,7 +2,7 @@ package DayThree;
 
 import java.util.Arrays;
 
-public class array {
+public class Array {
     public static void main(String[] args) {
 
         int[] m = new int[10];

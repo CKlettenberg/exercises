@@ -1,11 +1,6 @@
 package DayTwo;
 
-import javax.swing.*;
-import java.sql.SQLOutput;
-import java.util.Locale;
-import java.util.Scanner;
-
-public class ülesanded {
+public class Ülesanded {
     public static void main(String[] args) {
 /*
         System.out.println("Hello World");

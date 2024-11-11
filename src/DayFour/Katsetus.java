@@ -2,7 +2,7 @@ package DayFour;
 
 import java.util.Arrays;
 
-public class katsetus {
+public class Katsetus {
     public static void main(String[] args) {
         int[] firstArray = new int[5];
         //{0,0,0,0,0}

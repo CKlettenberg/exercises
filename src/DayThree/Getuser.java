@@ -1,6 +1,6 @@
 package DayThree;
 
-public class getuser {
+public class Getuser {
     public static void main(String[] args) {
 /*
 

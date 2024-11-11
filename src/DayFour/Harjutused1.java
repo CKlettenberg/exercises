@@ -1,6 +1,6 @@
 package DayFour;
 
-public class harjutused1 {
+public class Harjutused1 {
     public static void main(String[] args) {
 
         /*

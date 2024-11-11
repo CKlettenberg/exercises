@@ -1,8 +1,6 @@
 package DayThree;
 
-import java.util.Scanner;
-
-public class kolmaspäev {
+public class Kolmaspäev {
     public static void main(String[] args) {
 
 /*

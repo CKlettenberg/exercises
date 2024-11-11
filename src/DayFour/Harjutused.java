@@ -1,8 +1,6 @@
 package DayFour;
 
-import java.util.Arrays;
-
-public class harjutused {
+public class Harjutused {
     public static void main(String[] args) {
 
         getValues1To10();
@@ -48,9 +46,9 @@ public class harjutused {
 
     public static void multiplicationTable() {
         int seven = 7;
-        for (int multiplication = 1; multiplication <= 10; multiplication++) {
+        for (int i = 1; i <= 10; i++) {
 
-            System.out.println(seven + " X " + multiplication + " = " + seven * multiplication);
+            System.out.println(seven + " X " + i + " = " + seven * i);
 
         }
     }

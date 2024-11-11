@@ -1,6 +1,6 @@
 package DayThree;
 
-public class harjutusreturn {
+public class Harjutusreturn {
     public static void main(String[] args) {
 
         boolean checkIfNumberIsEven = isEven(6);

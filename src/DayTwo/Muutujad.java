@@ -1,6 +1,6 @@
 package DayTwo;
 
-public class muutujad {
+public class Muutujad {
     int number;
     static String name = "John";
 
