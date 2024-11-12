@@ -1,0 +1,73 @@
+{
+  "people": [
+    {
+      "name": "Tiit",
+      "age": 15,
+      "address": {
+        "street": "Mudamülka",
+        "houseNr": 2,
+        "district": "Konnakulles"
+      },
+      "kids": [
+        {
+          "name": "Juku",
+          "age": 8,
+          "underage": true
+        },
+        {
+          "name": "Kalle",
+          "age": 8,
+          "underage": true
+        }
+      ]
+    },
+    {
+      "name": "Teet",
+      "age": 30,
+      "address": {
+        "street": "Tuletorni",
+        "houseNr": 17,
+        "district": "Tikutaga"
+      },
+      "kids": [
+        {
+          "name": "Meelis",
+          "age": 2,
+          "underage": true
+        },
+        {
+          "name": "Gert",
+          "age": 7,
+          "underage": true
+        }
+      ]
+    },
+    {
+      "name": "Toomas",
+      "age": 102,
+      "address": {
+        "street": "Vanakurat",
+        "houseNr": 69,
+        "district": "Keeksi"
+      },
+      "kids": [
+        {
+          "name": "Tommy",
+          "age": 1,
+          "underage": true
+        },
+        {
+          "name": "Boy",
+          "age": 4,
+          "underage": true
+        }
+      ]
+    }
+  ]
+}
+
+
+
+
+
+

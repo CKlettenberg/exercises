@@ -169,16 +169,14 @@ public class Ülesanded {
     public static void compoundCalculator() {
         double principal = 1000;         // Principal amount in euros
         double rate = 0.10;              // Annual interest rate (9%)
-        int compoundingsPerYear = 2;     // Compounded 4 times per year
+        int compoundingsPerYear = 4;     // Compounded 4 times per year
         double years = 1;               // Invested for 10 years
 
         // Calculate the compound interest
         double amount = principal * Math.pow((1 + rate / compoundingsPerYear), compoundingsPerYear * years);
 
         // Display the result
-        System.out.printf("The amount after %.2f years is: %.2f euros\n", years, amount);
-
-
+        System.out.printf("The amount after " + years + " year(s) is: " + amount + " euros.");
     }
 
     public static void setVõimalused() {
@@ -212,8 +210,6 @@ public class Ülesanded {
         for (String element : set) {
             System.out.println(element);
         }
-
-
     }
 }
 
