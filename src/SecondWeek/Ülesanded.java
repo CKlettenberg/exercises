@@ -29,29 +29,29 @@ public class Ülesanded {
     public static void sõnadEraldi() {
         String text = "Hello World Peeter Ükssarv";
 
-        String[] sõnadEraldi = text.split("\\s+");
-        for (String sõna : sõnadEraldi) {
-            System.out.println(sõna);
+        String[] wordsSeparately = text.split("\\s+");
+        for (String word : wordsSeparately) {
+            System.out.println(word);
         }
     }
 
-    public static void setNimekiri() {
+    public static void setUniqueWords() {
 
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Sisesta lauseke: ");
+        System.out.print("Enter a sentence: ");
         String sentence = scanner.nextLine();
         String[] words = sentence.split("\\s+");
         LinkedHashSet<String> uniqueWords = new LinkedHashSet<>();
         for (String word : words) {
             uniqueWords.add(word.toLowerCase());
         }
-        System.out.println("Unikaalsed sõnkesed: " + uniqueWords);
+        System.out.println("Unique words: " + uniqueWords);
         scanner.close();
     }
 
     public static void removeAllFunk() {
 
-        System.out.println("Tähestik");
+        System.out.println("Vocabulary");
         Set<Character> words = new HashSet<>();
 
         for (char c = 'a'; c <= 'z'; c++) {
@@ -59,11 +59,11 @@ public class Ülesanded {
         }
         System.out.println(words);
 
-        // versioon 1
+        // version 1
         // Set<Character> vowels = Set.of('a','e','i','o','u');
         // words.removeAll(vowels);
 
-        // versioon 2
+        // version 2
         Set<Character> vovels = new HashSet<>();
         vovels.add('a');
         vovels.add('e');
