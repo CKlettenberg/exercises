@@ -14,7 +14,7 @@ public class HarjutusedKolmap {
         //number2StringAndBack();
         //validNumberCatch();
         //reverseString();
-        reverseStringToInteger();
+        //reverseStringToInteger();
 
 
 
@@ -306,6 +306,8 @@ public class HarjutusedKolmap {
 
             // prindib tulemi - tagurpidi + int tüüp (numbriline väärtus)
             System.out.println(reversedNumber);
-        }
+    }
+
+
 }
 
